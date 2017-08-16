@@ -29,6 +29,14 @@ Currently supported coins:
 - In the Better Touch Tool preferences panel, you can add, delete, and rearrange the currencies.
 - Timing: Currently each currency is refreshed every 60 seconds. Change this by going to Better Touch Tool preferences panel, clicking on a currency, going to "advanced configuration", and adjusting the "run script every x seconds" amount. It's not recommended to go under 30 seconds or the server could ban you.
 
+# Donations
+
+_I am not the original author of this script._ I merely improved, optimized, and extended it to support more cryptocurrencies and other features. The original idea came from [here](https://steemit.com/neo/@awesomemo/get-the-latest-price-of-neo-on-your-macbook-touchbar).  Still some people have mentioned wanting to donate so here's how if you like:
+
+- Ethereum: 0x28337E58c086c1019192D876490596B9CC5C5a2a
+- Doge: D8WmX55mJiS8VxciwPhB1fr2swRR2agbJ6
+
+
 # History
 - V1.1: Support for displaying Neo and Civic in USD and not just Ethereum value. Click-support for Ethereum value.
 - V1.2: Support for rounding dollar values so that they're not 20 characters long. :)
