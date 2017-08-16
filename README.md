@@ -14,7 +14,7 @@ Currently supported coins:
 # Notes: 
 - All values are in USD.
 - For values taken from bittrex.com, the very last price this coin was sold for is used.
-- For **NEO**, **Civic**, **TenX** and any coin tracked on bittrex.com the USD price is calculated by the last sold etherium-altcoin transaction multiplied by the current Coinbase value of Etherium. For me, I felt like this was the most accurate representation for rather than using USDT markets.
+- For **NEO**, **Civic**, **TenX** and any coin tracked on bittrex.com the USD price is calculated by the last sold etherium-altcoin transaction multiplied by the current Coinbase value of Etherium. For me, I felt like this was the most accurate representation rather than using USDT markets.
 - Once installed, you can delete any coins you are not interested in tracking.
 
 # To Install
@@ -24,7 +24,7 @@ Currently supported coins:
 3. In your Mac's menu bar, click the Better Touch Tool `icon > Preferences`.
 4. In the bottom left corner of the popup go to "Manage Presets". 
 5. Click the "Import" button and select the `crypto-krunkosaurus.json` file you downloaded. Viola you're done!
-6. If you want support for TenX, repeat step 5 with tenx.json. Note that you can toggle these separate presets on and off.
+6. If you want support for TenX, repeat step 5 with tenx.json. Note that you can toggle these separate presets on and off. More to come!
 
 # Customization
 
