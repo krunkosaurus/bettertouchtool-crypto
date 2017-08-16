@@ -64,7 +64,7 @@
             "BTTTouchBarFreeSpaceAfterButton" : "5.000000",
             "BTTTouchBarButtonColor" : "58.650001, 58.650001, 58.650001, 255.000000",
             "BTTTouchBarAlwaysShowButton" : "1",
-            "BTTTouchBarAppleScriptString" : "set json to do shell script \"curl -s 'https:\/\/api.coinbase.com\/v2\/prices\/ETH-USD\/spot'\"\rset json to text 1 thru 26 of json\rset eth to do shell script \"sed s\/[a-zA-Z:{},]\/\/g <<< \" & json\rset eth to eth as real\r\rset neo to do shell script \"curl -s 'https:\/\/bittrex.com\/api\/v1.1\/public\/getticker?market=eth-neo' | grep -oE '(Last).*' | sed 's\/[^0-9\\\\.]*\/\/g'\"\rset neo to neo as real\r\rset answer to neo * eth\rreturn \"$\" & answer\r",
+            "BTTTouchBarAppleScriptString" : "set json to do shell script \"curl -s 'https:\/\/api.coinbase.com\/v2\/prices\/ETH-USD\/spot'\"\rset json to text 1 thru 26 of json\rset eth to do shell script \"sed s\/[a-zA-Z:{},]\/\/g <<< \" & json\rset eth to eth as real\r\rset neo to do shell script \"curl -s 'https:\/\/bittrex.com\/api\/v1.1\/public\/getticker?market=eth-neo' | grep -oE '(Last).*' | sed 's\/[^0-9\\\\.]*\/\/g'\"\rset neo to neo as real\r\rset answer to neo * eth\rset answer to answer * 100\rset answer to round answer\rset answer to answer \/ 100\rreturn \"$\" & answer\r",
             "BTTTouchBarAlternateBackgroundColor" : "109.650002, 109.650002, 109.650002, 255.000000",
             "BTTTouchBarScriptUpdateInterval" : 60,
             "BTTHUDText" : "dfdfd",
@@ -87,7 +87,7 @@
             "BTTTouchBarFreeSpaceAfterButton" : "5.000000",
             "BTTTouchBarButtonColor" : "253.688584, 251.636618, 255.000000, 255.000000",
             "BTTTouchBarAlwaysShowButton" : "1",
-            "BTTTouchBarAppleScriptString" : "set json to do shell script \"curl -s 'https:\/\/api.coinbase.com\/v2\/prices\/ETH-USD\/spot'\"\rset json to text 1 thru 26 of json\rset eth to do shell script \"sed s\/[a-zA-Z:{},]\/\/g <<< \" & json\rset eth to eth as real\r\rset cvc to do shell script \"curl -s 'https:\/\/bittrex.com\/api\/v1.1\/public\/getticker?market=eth-cvc' | grep -oE '(Last).*' | sed 's\/[^0-9\\\\.]*\/\/g'\"\rset cvc to cvc as real\r\rset answer to cvc * eth\rreturn \"$\" & answer",
+            "BTTTouchBarAppleScriptString" : "set json to do shell script \"curl -s 'https:\/\/api.coinbase.com\/v2\/prices\/ETH-USD\/spot'\"\rset json to text 1 thru 26 of json\rset eth to do shell script \"sed s\/[a-zA-Z:{},]\/\/g <<< \" & json\rset eth to eth as real\r\rset cvc to do shell script \"curl -s 'https:\/\/bittrex.com\/api\/v1.1\/public\/getticker?market=eth-cvc' | grep -oE '(Last).*' | sed 's\/[^0-9\\\\.]*\/\/g'\"\rset cvc to cvc as real\r\rset answer to cvc * eth\rset answer to answer * 100\rset answer to round answer\rset answer to answer \/ 100\rreturn \"$\" & answer",
             "BTTTouchBarAlternateBackgroundColor" : "109.650002, 109.650002, 109.650002, 255.000000",
             "BTTTouchBarScriptUpdateInterval" : 60
           }
