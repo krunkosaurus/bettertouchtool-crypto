@@ -10,10 +10,12 @@ Currently supported coins:
 - **Neo** - Pulled from bittrex.com API.
 - **Civic** - Pulled from bittrex.com API.
 - **TenX** - Pulled from bittrex.com API. (This is an addon under tenx.json)
+- **OmiseGo** - Pulled from bittrex.com API. (This is an addon under omg.json)
+
 
 # Notes: 
 - All values are in USD.
-- For values taken from bittrex.com, the very last price this coin was sold for is used.
+- For values taken from bittrex.com, the very last price this coin was sold for is used. Bonus feature: If you click the button it translates the current USD value to ETH.
 - For **NEO**, **Civic**, **TenX** and any coin tracked on bittrex.com the USD price is calculated by the last sold etherium-altcoin transaction multiplied by the current Coinbase value of Etherium. For me, I felt like this was the most accurate representation rather than using USDT markets.
 - Once installed, you can delete any coins you are not interested in tracking.
 
@@ -35,14 +37,15 @@ Currently supported coins:
 
 _I am not the original author of this script._ I merely improved, optimized, and extended it to support more cryptocurrencies and other features. The original idea came from [here](https://steemit.com/neo/@awesomemo/get-the-latest-price-of-neo-on-your-macbook-touchbar).  Still some people have mentioned wanting to donate so here's how if you like:
 
-- Ethereum: 0x28337E58c086c1019192D876490596B9CC5C5a2a
-- Doge: D8WmX55mJiS8VxciwPhB1fr2swRR2agbJ6
+- Donate Ethereum: 0x28337E58c086c1019192D876490596B9CC5C5a2a
+- Donate Doge: D8WmX55mJiS8VxciwPhB1fr2swRR2agbJ6
 
 
 # History
 - V1.1: Support for displaying Neo and Civic in USD and not just Ethereum value. Click-support for Ethereum value.
 - V1.2: Support for rounding dollar values so that they're not 20 characters long. :)
 - V1.3: Add-on support for TenX.
+- V1.4: Add-on support for OmiseGo.
 
 # Acknowledgments
 
