@@ -5,6 +5,9 @@
     {
       "BTTAppBundleIdentifier" : "BT.G",
       "BTTAppName" : "Global",
+      "BTTAppSpecificSettings" : {
+
+      },
       "BTTTriggers" : [
         {
           "BTTWidgetName" : "TenX",
