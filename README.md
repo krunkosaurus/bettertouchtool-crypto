@@ -25,7 +25,7 @@ Currently supported coins:
 2. Right-click and download this file [crypto-krunkosaurus.json](https://raw.githubusercontent.com/krunkosaurus/bettertouchtool-crypto/master/crypto-krunkosaurus.json) to your desktop.
 3. In your Mac's menu bar, click the Better Touch Tool `icon > Preferences`.
 4. In the bottom left corner of the popup go to "Manage Presets". 
-5. Click the "Import" button and select the `crypto-krunkosaurus.json` file you downloaded. Viola you're done!
+5. Click the "Import" button and select the `crypto-krunkosaurus.json` file you downloaded. Voilà you're done!
 6. If you want support for others, repeat step 5 with [tenx.json](https://raw.githubusercontent.com/krunkosaurus/bettertouchtool-crypto/master/tenx.json) or [omg.json](https://raw.githubusercontent.com/krunkosaurus/bettertouchtool-crypto/master/omg.json). 
 7. Note that you can toggle these separate presets on and off. More to come!
 
